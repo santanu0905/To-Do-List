@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <form class="taskform">
+            <div class="navContainer">
+                <div class="heading">
+                    <h2>To-Do List</h2>
+                </div>
+                <div class="modify">
+                    <button class="thmbtn" value="light" title="Switched to Dark-mode">
+                        <i class="fa-regular fa-sun" style="display:none;"></i>
+                        <i class="fa-regular fa-moon"></i>
+                    </button>
+                    <button class="resetbtn" title="Reset All">
+                        <i class="fa-solid fa-rotate"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="taskbody">
+                <div class="inputtasks">
+                    <!-- inputTask field -->
+                </div>
+                <div class="addbtnContainer">
+                    <button class="addbtn defaddBtn">
+                        <i class="fa-regular fa-plus"></i><span>Add a task</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
